@@ -16,11 +16,11 @@ Expected layout:
 
 - TMDGen.sh
 - Codes/
-    - grainBdr.py, structure_gen.py, _cGBUtils.*   
-    - ovito_data_extract.py 
-    - identify_penta_hepta.py  
-    - shared_edge.py
-    - type_assign.py
+    - grainBdr.py, structure_gen.py, _cGBUtils.*  - creates Graphene GB structure   
+    - ovito_data_extract.py                       - extracts GB atoms
+    - identify_penta_hepta.py                     - identifies pentagons and heptagons rings and atoms
+    - shared_edge.py                              - determines shared-atom pairs between pentagons and heptagons
+    - type_assign.py                              - TMD atom types (M/X) and converts the graphene-like (psedu TMD) structure into a true TMD structure.
     - in.min  (LAMMPS input template)
     - setup.py (for compiling _cGBUtils)
 
