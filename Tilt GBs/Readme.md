@@ -56,6 +56,14 @@ Meaning:
 How to Run
 -------------
 
+**Installation:** First run "python3 setup.py build_ext --inplace" in a terminal with "Codes" directory as current directory to create the _cGBUtils module created by Ashivni Shekhawat et al. Cite as - "Large-scale experimental and theoretical study of graphene grain boundary structures, Colin Ophus, Ashivni Shekhawat, Haider Rasool, and Alex Zettl, Phys. Rev. B 92, 205402"
+
+1. Install NumPy (pip3 install numpy)
+2. Install ASE  (pip3 install ase)
+3. Install ovito using (pip3 install ovito)
+4. Install NetworkX (pip install networkx)
+4. Install LAMMPS (See LAMMPS website on how to install)
+
 From the directory **above** `Codes/`, run:
 
     bash TMDGen.sh
