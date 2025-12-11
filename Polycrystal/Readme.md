@@ -86,17 +86,17 @@ Step 9: Final TMD conversion
 ****4. MAJOR PYTHON MODULES (SUMMARY)****
 **----------------------------------------------------------------------**
 
-structure_gen_poly.py      Generates polycrystal & Voronoi structure
-polyCrystal.py             Periodic Voronoi + CVT relaxation
-_cPolyUtils.c              C-accelerated Voronoi routines
-cfg2lmp.py                 Convert .cfg → .lmp
-ovito_data_extract_poly.py Extract GB atoms only
-periodicpolyGrain.py       Unwrap GB atoms
-identify_penta_hepta_poly.py Detects 5|7 rings
-pair_find.py               Penta–hepta pairing logic
-NNFind_1/2/3.py            Neighbor repair tools
-atom_id.py                 Unique atom labeling
-type_assign.py             Assigns TMD atom types and builds final structure
+structure_gen_poly.py        -  Generates polycrystal & Voronoi structure
+polyCrystal.py               -  Periodic Voronoi + CVT relaxation
+_cPolyUtils.c                -  C-accelerated Voronoi routines
+cfg2lmp.py                   -  Convert .cfg → .lmp
+ovito_data_extract_poly.py   - Extract GB atoms only
+periodicpolyGrain.py         - Unwrap GB atoms
+identify_penta_hepta_poly.py - Detects 5|7 rings
+pair_find.py                 - Penta–hepta pairing logic
+NNFind_1/2/3.py              - Neighbor repair tools
+atom_id.py                   - Unique atom labeling
+type_assign.py               - Assigns TMD atom types and builds final structure
 
 **----------------------------------------------------------------------**
 **5. FINAL OUTPUT FILES**
