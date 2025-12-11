@@ -93,5 +93,5 @@ IMPORTANT NOTE
 ---------------
 The script DOES NOT perform energy minimization.
 Users must run relaxation/minimization in LAMMPS using a suitable TMD potential 
-to obtain physically realistic WSe2 GB structures.
+to obtain physically realistic TMD GB structures.
 
