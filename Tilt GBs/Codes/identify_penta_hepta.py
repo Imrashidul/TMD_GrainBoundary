@@ -329,6 +329,8 @@ with open("penta_data_unique.txt", "w") as file:
 with open("hepta_data_unique.txt", "w") as file:
     for i in range(len(heptagon_unique_coord)):
         file.write(f"{' '.join(f'{x} {y}' for x, y in heptagon_unique_coord[i])}\n")
-       
+        
+print("Number of pentagons:", len(pentagon_unique_coord))
+print("Number of heptagons:", len(heptagon_unique_coord))
 
 
